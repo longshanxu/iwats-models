@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "models"
+    }
+  ],
+  "settings": {
+    "go.toolsEnvVars": {
+      "GOPROXY": "https://goproxy.cn,direct",
+      "GONOPROXY": "none;"
+    },
+    "svn.ignoreMissingSvnWarning": true
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "go",
+        "request": "launch",
+        "name": "models",
+        "cwd": "${workspaceFolder:models}",
+        "program": "${workspaceFolder:models}"
+      },
+     
+    ]
+  }
+}
